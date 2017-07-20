@@ -22,6 +22,7 @@ public class FirstSeleniumTest {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://techblog.polteq.com/testshop/index.php");
+        driver.manage().window().maximize();
 
         driver.findElement(By.className("login")).click();
         driver.findElement(By.id("email")).sendKeys("tester@test.com");
