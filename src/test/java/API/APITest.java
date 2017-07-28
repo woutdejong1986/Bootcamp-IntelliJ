@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class APITest {
 
-    String driver = "max_verstappen";
+//    String driver = "max_verstappen";
 
     @Test
     public void getAPICall(){
