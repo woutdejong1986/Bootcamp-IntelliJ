@@ -38,6 +38,5 @@ public class AdjustPersonalInfoTest extends TestShopScenario {
             accountPage.enterFirstName(firstName);
         }
 
-
     }
 }
